@@ -20,6 +20,7 @@ export default antfu(
 			"no-console": "warn",
 			"no-alert": "warn",
 			"unused-imports/no-unused-vars": "warn",
+			"unused-imports/no-unused-imports": "off",
 		},
 	},
 	{

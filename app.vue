@@ -1,9 +1,14 @@
 <script setup lang="ts">
-// const gallery = Object.values(import.meta.glob('@assets/asso/*.{png,jpg,jpeg,PNG,JPEG}', { eager: true, as: 'url' }))
 </script>
 
 <template lang="pug">
-div
-    NuxtRouteAnnouncer
-    NuxtWelcome
+CinemaViewPort
 </template>
+
+<style>
+body {
+	height: 100vh;
+	margin: 0 !important;
+	font-family: "Rubik", "Lato", sans-serif !important;
+}
+</style>

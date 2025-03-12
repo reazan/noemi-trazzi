@@ -4,6 +4,7 @@ import {
 	defineConfig,
 	presetAttributify,
 	presetWebFonts,
+	presetWind3,
 	transformerDirectives,
 	transformerVariantGroup,
 } from "unocss";
@@ -11,10 +12,11 @@ import {
 export default defineConfig({
 	presets: [
 		presetAttributify(),
+		presetWind3(),
 		presetWebFonts({
 			provider: "google",
 			fonts: {
-				sans: "Readex Pro",
+				sans: "Rubik",
 			},
 		}),
 	],

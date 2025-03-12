@@ -114,8 +114,10 @@
 			"tailwindcss",
 			"tera",
 			"thisismanta",
+			"TRAZZI",
 			"unocss",
 			"uuidv"
 		],
+		"editor.tabCompletion": "on",
 	}
 }
